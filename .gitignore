@@ -1,0 +1,46 @@
+# Security - Never commit these files
+service-account-key.json
+*.json
+*.pem
+*.key
+*.p12
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/temp_uploads/
+
+# Cache and logs
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files that should use Git LFS
+*.pack
+*.idx
