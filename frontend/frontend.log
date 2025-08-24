@@ -1,0 +1,2949 @@
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:30357) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:30357) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view video-story-platform-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.4.151:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:33841) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:33841) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view video-story-platform-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.4.151:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:10893) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10893) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view video-story-platform-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.4.151:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:16942) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:16942) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view video-story-platform-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.4.151:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:27227) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:27227) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view video-story-platform-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.4.151:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/StoriesPage.js
+  Line 280:39:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/pages/StoriesPage.js
+  Line 280:39:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/StoriesPage.js
+  Line 280:39:  Unexpected use of 'confirm'  no-restricted-globals
+
+src/pages/StoryViewPage.js
+  Line 141:21:  Unexpected use of 'confirm'  no-restricted-globals
+  Line 375:37:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/pages/StoriesPage.js
+  Line 280:39:  Unexpected use of 'confirm'  no-restricted-globals
+
+src/pages/StoryViewPage.js
+  Line 141:21:  Unexpected use of 'confirm'  no-restricted-globals
+  Line 375:37:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/StoriesPage.js
+  Line 280:39:  Unexpected use of 'confirm'  no-restricted-globals
+
+src/pages/StoryViewPage.js
+  Line 141:21:  Unexpected use of 'confirm'  no-restricted-globals
+  Line 375:37:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/pages/StoriesPage.js
+  Line 280:39:  Unexpected use of 'confirm'  no-restricted-globals
+
+src/pages/StoryViewPage.js
+  Line 141:21:  Unexpected use of 'confirm'  no-restricted-globals
+  Line 375:37:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/StoryViewPage.js
+  Line 141:21:  Unexpected use of 'confirm'  no-restricted-globals
+  Line 375:37:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/pages/StoryViewPage.js
+  Line 141:21:  Unexpected use of 'confirm'  no-restricted-globals
+  Line 375:37:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoriesPage.js
+  Line 4:36:  'User' is defined but never used                                                                            no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 17:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 27:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:18934) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:18934) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+  Line 10:8:  'AIAssistPanel' is defined but never used    no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+  Line 10:8:  'AIAssistPanel' is defined but never used    no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:   'AnimatePresence' is defined but never used           no-unused-vars
+  Line 5:45:   'ImageIcon' is defined but never used                 no-unused-vars
+  Line 10:8:   'AIAssistPanel' is defined but never used             no-unused-vars
+  Line 28:10:  'showAIAssist' is assigned a value but never used     no-unused-vars
+  Line 28:24:  'setShowAIAssist' is assigned a value but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:   'AnimatePresence' is defined but never used           no-unused-vars
+  Line 5:45:   'ImageIcon' is defined but never used                 no-unused-vars
+  Line 10:8:   'AIAssistPanel' is defined but never used             no-unused-vars
+  Line 28:10:  'showAIAssist' is assigned a value but never used     no-unused-vars
+  Line 28:24:  'setShowAIAssist' is assigned a value but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:   'AnimatePresence' is defined but never used        no-unused-vars
+  Line 5:45:   'ImageIcon' is defined but never used              no-unused-vars
+  Line 10:8:   'AIAssistPanel' is defined but never used          no-unused-vars
+  Line 28:10:  'showAIAssist' is assigned a value but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:   'AnimatePresence' is defined but never used        no-unused-vars
+  Line 5:45:   'ImageIcon' is defined but never used              no-unused-vars
+  Line 10:8:   'AIAssistPanel' is defined but never used          no-unused-vars
+  Line 28:10:  'showAIAssist' is assigned a value but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:   'AnimatePresence' is defined but never used          no-unused-vars
+  Line 5:45:   'ImageIcon' is defined but never used                no-unused-vars
+  Line 10:8:   'AIAssistPanel' is defined but never used            no-unused-vars
+  Line 28:10:  'showAIAssist' is assigned a value but never used    no-unused-vars
+  Line 90:9:   'handleAIInsert' is assigned a value but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:   'AnimatePresence' is defined but never used          no-unused-vars
+  Line 5:45:   'ImageIcon' is defined but never used                no-unused-vars
+  Line 10:8:   'AIAssistPanel' is defined but never used            no-unused-vars
+  Line 28:10:  'showAIAssist' is assigned a value but never used    no-unused-vars
+  Line 90:9:   'handleAIInsert' is assigned a value but never used  no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 118:34:   'handleTabChange' is not defined  no-undef
+  Line 120:21:   'activeTab' is not defined        no-undef
+  Line 129:34:   'handleTabChange' is not defined  no-undef
+  Line 131:21:   'activeTab' is not defined        no-undef
+  Line 167:16:   'activeTab' is not defined        no-undef
+  Line 183:16:   'activeTab' is not defined        no-undef
+  Line 251:59:   'activeTab' is not defined        no-undef
+  Line 251:103:  'activeTab' is not defined        no-undef
+  Line 259:37:   'activeTab' is not defined        no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 7:16:  'setMode' is assigned a value but never used    no-unused-vars
+  Line 70:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 118:34:   'handleTabChange' is not defined  no-undef
+  Line 120:21:   'activeTab' is not defined        no-undef
+  Line 129:34:   'handleTabChange' is not defined  no-undef
+  Line 131:21:   'activeTab' is not defined        no-undef
+  Line 167:16:   'activeTab' is not defined        no-undef
+  Line 183:16:   'activeTab' is not defined        no-undef
+  Line 251:59:   'activeTab' is not defined        no-undef
+  Line 251:103:  'activeTab' is not defined        no-undef
+  Line 259:37:   'activeTab' is not defined        no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 163:16:   'activeTab' is not defined  no-undef
+  Line 179:16:   'activeTab' is not defined  no-undef
+  Line 247:59:   'activeTab' is not defined  no-undef
+  Line 247:103:  'activeTab' is not defined  no-undef
+  Line 255:37:   'activeTab' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 163:16:   'activeTab' is not defined  no-undef
+  Line 179:16:   'activeTab' is not defined  no-undef
+  Line 247:59:   'activeTab' is not defined  no-undef
+  Line 247:103:  'activeTab' is not defined  no-undef
+  Line 255:37:   'activeTab' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 247:59:   'activeTab' is not defined  no-undef
+  Line 247:103:  'activeTab' is not defined  no-undef
+  Line 255:37:   'activeTab' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 247:59:   'activeTab' is not defined  no-undef
+  Line 247:103:  'activeTab' is not defined  no-undef
+  Line 255:37:   'activeTab' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 247:59:   'activeTab' is not defined  no-undef
+  Line 247:103:  'activeTab' is not defined  no-undef
+  Line 255:37:   'activeTab' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 247:59:   'activeTab' is not defined  no-undef
+  Line 247:103:  'activeTab' is not defined  no-undef
+  Line 255:37:   'activeTab' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 71:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 71:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 71:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 71:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 17:10:  'visualType' is assigned a value but never used      no-unused-vars
+  Line 17:22:  'setVisualType' is assigned a value but never used   no-unused-vars
+  Line 18:10:  'entities' is assigned a value but never used        no-unused-vars
+  Line 18:20:  'setEntities' is assigned a value but never used     no-unused-vars
+  Line 19:10:  'mood' is assigned a value but never used            no-unused-vars
+  Line 19:16:  'setMood' is assigned a value but never used         no-unused-vars
+  Line 24:10:  'starterText' is assigned a value but never used     no-unused-vars
+  Line 24:23:  'setStarterText' is assigned a value but never used  no-unused-vars
+  Line 75:9:   'resetForm' is assigned a value but never used       no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 17:10:  'visualType' is assigned a value but never used      no-unused-vars
+  Line 17:22:  'setVisualType' is assigned a value but never used   no-unused-vars
+  Line 18:10:  'entities' is assigned a value but never used        no-unused-vars
+  Line 18:20:  'setEntities' is assigned a value but never used     no-unused-vars
+  Line 19:10:  'mood' is assigned a value but never used            no-unused-vars
+  Line 19:16:  'setMood' is assigned a value but never used         no-unused-vars
+  Line 24:10:  'starterText' is assigned a value but never used     no-unused-vars
+  Line 24:23:  'setStarterText' is assigned a value but never used  no-unused-vars
+  Line 75:9:   'resetForm' is assigned a value but never used       no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 17:22:  'setVisualType' is assigned a value but never used   no-unused-vars
+  Line 18:20:  'setEntities' is assigned a value but never used     no-unused-vars
+  Line 19:16:  'setMood' is assigned a value but never used         no-unused-vars
+  Line 24:23:  'setStarterText' is assigned a value but never used  no-unused-vars
+  Line 84:9:   'resetForm' is assigned a value but never used       no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 17:22:  'setVisualType' is assigned a value but never used   no-unused-vars
+  Line 18:20:  'setEntities' is assigned a value but never used     no-unused-vars
+  Line 19:16:  'setMood' is assigned a value but never used         no-unused-vars
+  Line 24:23:  'setStarterText' is assigned a value but never used  no-unused-vars
+  Line 84:9:   'resetForm' is assigned a value but never used       no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 27:29:   'mode' is not defined     no-undef
+  Line 28:25:   'mode' is not defined     no-undef
+  Line 33:9:    'mode' is not defined     no-undef
+  Line 39:40:   'mode' is not defined     no-undef
+  Line 43:11:   'mode' is not defined     no-undef
+  Line 94:5:    'setMode' is not defined  no-undef
+  Line 99:5:    'setMode' is not defined  no-undef
+  Line 316:33:  'mode' is not defined     no-undef
+  Line 334:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 84:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 27:29:   'mode' is not defined     no-undef
+  Line 28:25:   'mode' is not defined     no-undef
+  Line 33:9:    'mode' is not defined     no-undef
+  Line 39:40:   'mode' is not defined     no-undef
+  Line 43:11:   'mode' is not defined     no-undef
+  Line 94:5:    'setMode' is not defined  no-undef
+  Line 99:5:    'setMode' is not defined  no-undef
+  Line 316:33:  'mode' is not defined     no-undef
+  Line 334:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:    'setMode' is not defined  no-undef
+  Line 93:5:    'setMode' is not defined  no-undef
+  Line 310:33:  'mode' is not defined     no-undef
+  Line 328:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:    'setMode' is not defined  no-undef
+  Line 93:5:    'setMode' is not defined  no-undef
+  Line 310:33:  'mode' is not defined     no-undef
+  Line 328:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:53756) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:53756) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:    'setMode' is not defined  no-undef
+  Line 93:5:    'setMode' is not defined  no-undef
+  Line 310:33:  'mode' is not defined     no-undef
+  Line 328:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:    'setMode' is not defined  no-undef
+  Line 93:5:    'setMode' is not defined  no-undef
+  Line 310:33:  'mode' is not defined     no-undef
+  Line 328:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:    'setMode' is not defined  no-undef
+  Line 93:5:    'setMode' is not defined  no-undef
+  Line 310:33:  'mode' is not defined     no-undef
+  Line 328:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:    'setMode' is not defined  no-undef
+  Line 93:5:    'setMode' is not defined  no-undef
+  Line 310:33:  'mode' is not defined     no-undef
+  Line 328:29:  'mode' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:  'setMode' is not defined  no-undef
+  Line 93:5:  'setMode' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used         no-unused-vars
+  Line 87:9:  'generateScene' is assigned a value but never used     no-unused-vars
+  Line 92:9:  'generateDialogue' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 88:5:  'setMode' is not defined  no-undef
+  Line 93:5:  'setMode' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:55377) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:55377) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 78:9:  'resetForm' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 38:9:    'starterText' is not defined     no-undef
+  Line 163:28:  'starterText' is not defined     no-undef
+  Line 164:38:  'setStarterText' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 38:9:    'starterText' is not defined     no-undef
+  Line 163:28:  'starterText' is not defined     no-undef
+  Line 164:38:  'setStarterText' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 162:28:  'starterText' is not defined     no-undef
+  Line 163:38:  'setStarterText' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 162:28:  'starterText' is not defined     no-undef
+  Line 163:38:  'setStarterText' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+
+> video-story-platform-frontend@1.0.0 start
+> react-scripts start
+
+(node:74291) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:74291) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view video-story-platform-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.4.151:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 27:9:  'presetEntities' is assigned a value but never used       no-unused-vars
+  Line 35:9:  'removeEntity' is assigned a value but never used         no-unused-vars
+  Line 39:9:  'handleEntityKeyDown' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 27:9:  'presetEntities' is assigned a value but never used       no-unused-vars
+  Line 35:9:  'removeEntity' is assigned a value but never used         no-unused-vars
+  Line 39:9:  'handleEntityKeyDown' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 46:5:    'setEntityDescription' is not defined    no-undef
+  Line 61:30:   'entityDescription' is not defined       no-undef
+  Line 78:9:    'characterProfiles' is not defined       no-undef
+  Line 163:30:  'addCharacterProfile' is not defined     no-undef
+  Line 169:18:  'characterProfiles' is not defined       no-undef
+  Line 173:20:  'characterProfiles' is not defined       no-undef
+  Line 178:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 185:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 192:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 199:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 205:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 25:10:  'entityDetails' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 46:5:    'setEntityDescription' is not defined    no-undef
+  Line 61:30:   'entityDescription' is not defined       no-undef
+  Line 78:9:    'characterProfiles' is not defined       no-undef
+  Line 163:30:  'addCharacterProfile' is not defined     no-undef
+  Line 169:18:  'characterProfiles' is not defined       no-undef
+  Line 173:20:  'characterProfiles' is not defined       no-undef
+  Line 178:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 185:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 192:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 199:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 205:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 79:9:    'characterProfiles' is not defined       no-undef
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 26:10:  'entityDetails' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 79:9:    'characterProfiles' is not defined       no-undef
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 164:30:  'addCharacterProfile' is not defined     no-undef
+  Line 170:18:  'characterProfiles' is not defined       no-undef
+  Line 174:20:  'characterProfiles' is not defined       no-undef
+  Line 179:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 186:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 193:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 200:42:  'updateCharacterProfile' is not defined  no-undef
+  Line 206:40:  'removeCharacterProfile' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 46:5:    'setEntityInput' is not defined  no-undef
+  Line 62:17:   'entityInput' is not defined     no-undef
+  Line 209:30:  'entityInput' is not defined     no-undef
+  Line 210:40:  'setEntityInput' is not defined  no-undef
+  Line 224:48:  'entityInput' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 19:10:  'selectedEntity' is assigned a value but never used     no-unused-vars
+  Line 19:26:  'setSelectedEntity' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 46:5:    'setEntityInput' is not defined  no-undef
+  Line 62:17:   'entityInput' is not defined     no-undef
+  Line 209:30:  'entityInput' is not defined     no-undef
+  Line 210:40:  'setEntityInput' is not defined  no-undef
+  Line 224:48:  'entityInput' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 62:17:   'entityInput' is not defined     no-undef
+  Line 209:30:  'entityInput' is not defined     no-undef
+  Line 210:40:  'setEntityInput' is not defined  no-undef
+  Line 224:48:  'entityInput' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 62:17:   'entityInput' is not defined     no-undef
+  Line 209:30:  'entityInput' is not defined     no-undef
+  Line 210:40:  'setEntityInput' is not defined  no-undef
+  Line 224:48:  'entityInput' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 209:30:  'entityInput' is not defined     no-undef
+  Line 210:40:  'setEntityInput' is not defined  no-undef
+  Line 224:48:  'entityInput' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/AIAssistPanel.js
+  Line 209:30:  'entityInput' is not defined     no-undef
+  Line 210:40:  'setEntityInput' is not defined  no-undef
+  Line 224:48:  'entityInput' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 29:10:  'showMentions' is assigned a value but never used       no-unused-vars
+  Line 29:24:  'setShowMentions' is assigned a value but never used    no-unused-vars
+  Line 30:10:  'mentionFilter' is assigned a value but never used      no-unused-vars
+  Line 30:25:  'setMentionFilter' is assigned a value but never used   no-unused-vars
+  Line 31:10:  'cursorPosition' is assigned a value but never used     no-unused-vars
+  Line 31:26:  'setCursorPosition' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 29:10:  'showMentions' is assigned a value but never used       no-unused-vars
+  Line 29:24:  'setShowMentions' is assigned a value but never used    no-unused-vars
+  Line 30:10:  'mentionFilter' is assigned a value but never used      no-unused-vars
+  Line 30:25:  'setMentionFilter' is assigned a value but never used   no-unused-vars
+  Line 31:10:  'cursorPosition' is assigned a value but never used     no-unused-vars
+  Line 31:26:  'setCursorPosition' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 29:10:  'showMentions' is assigned a value but never used           no-unused-vars
+  Line 72:9:   'handleSceneIdeaChange' is assigned a value but never used  no-unused-vars
+  Line 100:9:  'insertMention' is assigned a value but never used          no-unused-vars
+  Line 113:9:  'filteredEntities' is assigned a value but never used       no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 29:10:  'showMentions' is assigned a value but never used           no-unused-vars
+  Line 72:9:   'handleSceneIdeaChange' is assigned a value but never used  no-unused-vars
+  Line 100:9:  'insertMention' is assigned a value but never used          no-unused-vars
+  Line 113:9:  'filteredEntities' is assigned a value but never used       no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 32:10:  'selectedMentionIndex' is assigned a value but never used     no-unused-vars
+  Line 32:32:  'setSelectedMentionIndex' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 32:10:  'selectedMentionIndex' is assigned a value but never used     no-unused-vars
+  Line 32:32:  'setSelectedMentionIndex' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 102:9:  'handleSceneIdeaKeyDown' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 102:9:  'handleSceneIdeaKeyDown' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:38:  'useRef' is defined but never used     no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 1:27:  'useEffect' is defined but never used  no-unused-vars
+  Line 1:38:  'useRef' is defined but never used     no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:   'useEffect' is defined but never used                         no-unused-vars
+  Line 299:9:  'getEntityLibrary' is assigned a value but never used         no-unused-vars
+  Line 310:9:  'saveEntityToLibrary' is assigned a value but never used      no-unused-vars
+  Line 325:9:  'deleteEntityFromLibrary' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:   'useEffect' is defined but never used                         no-unused-vars
+  Line 299:9:  'getEntityLibrary' is assigned a value but never used         no-unused-vars
+  Line 310:9:  'saveEntityToLibrary' is assigned a value but never used      no-unused-vars
+  Line 325:9:  'deleteEntityFromLibrary' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 36:10:  'libraryEntities' is assigned a value but never used     no-unused-vars
+  Line 36:27:  'setLibraryEntities' is assigned a value but never used  no-unused-vars
+  Line 37:10:  'showLibrary' is assigned a value but never used         no-unused-vars
+  Line 37:23:  'setShowLibrary' is assigned a value but never used      no-unused-vars
+  Line 38:10:  'entitySource' is assigned a value but never used        no-unused-vars
+  Line 38:24:  'setEntitySource' is assigned a value but never used     no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 36:10:  'libraryEntities' is assigned a value but never used     no-unused-vars
+  Line 36:27:  'setLibraryEntities' is assigned a value but never used  no-unused-vars
+  Line 37:10:  'showLibrary' is assigned a value but never used         no-unused-vars
+  Line 37:23:  'setShowLibrary' is assigned a value but never used      no-unused-vars
+  Line 38:10:  'entitySource' is assigned a value but never used        no-unused-vars
+  Line 38:24:  'setEntitySource' is assigned a value but never used     no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 37:23:  'setShowLibrary' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 38:10:  'entitySource' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 38:24:  'setEntitySource' is assigned a value but never used                                                                                                 no-unused-vars
+  Line 64:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 37:23:  'setShowLibrary' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 38:10:  'entitySource' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 38:24:  'setEntitySource' is assigned a value but never used                                                                                                 no-unused-vars
+  Line 64:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 37:23:  'setShowLibrary' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 38:10:  'entitySource' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 38:24:  'setEntitySource' is assigned a value but never used                                                                                                 no-unused-vars
+  Line 64:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 95:9:   'saveCurrentEntityToLibrary' is assigned a value but never used                                                                                      no-unused-vars
+  Line 111:9:  'addFromLibrary' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 127:9:  'deleteFromLibrary' is assigned a value but never used                                                                                               no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 37:23:  'setShowLibrary' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 38:10:  'entitySource' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 38:24:  'setEntitySource' is assigned a value but never used                                                                                                 no-unused-vars
+  Line 64:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 95:9:   'saveCurrentEntityToLibrary' is assigned a value but never used                                                                                      no-unused-vars
+  Line 111:9:  'addFromLibrary' is assigned a value but never used                                                                                                  no-unused-vars
+  Line 127:9:  'deleteFromLibrary' is assigned a value but never used                                                                                               no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 239:9:  'highlightMentions' is assigned a value but never used                                                                                               no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:   React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 239:9:  'highlightMentions' is assigned a value but never used                                                                                               no-unused-vars
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src/contexts/StoryContext.js
+  Line 1:56:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has missing dependencies: 'libraryEntities.length' and 'loadEntityLibrary'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 1:46:  'useCallback' is defined but never used                                                                               no-unused-vars
+  Line 64:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 1:46:  'useCallback' is defined but never used                                                                               no-unused-vars
+  Line 64:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 71:6:  React Hook useEffect has a missing dependency: 'loadEntityLibrary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/AIAssistPanel.js
+  Line 64:44:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+  Line 71:39:  'loadEntityLibrary' was used before it was defined  no-use-before-define
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/StoryCreatorPage.js
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+  Line 5:45:  'ImageIcon' is defined but never used        no-unused-vars
+
+src/pages/StoryViewPage.js
+  Line 7:3:    'Upload' is defined but never used                                                                          no-unused-vars
+  Line 7:11:   'MoreHorizontal' is defined but never used                                                                  no-unused-vars
+  Line 18:34:  'generationStatus' is assigned a value but never used                                                       no-unused-vars
+  Line 29:6:   React Hook useEffect has a missing dependency: 'actions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
