@@ -71,6 +71,24 @@ export const endpoints = {
   getStories: (userId = 'anonymous') => apiClient.get(`/stories?user_id=${userId}`),
   getStory: (storyId) => apiClient.get(`/stories/${storyId}`),
   
+  // Story Generation
+  generateStoryFromPrompt: (prompt, preferences = {}) => 
+    apiClient.post('/stories/generate', { prompt, preferences }),
+  getStoryGeneration: (storyId) => apiClient.get(`/stories/${storyId}/generation`),
+  saveStoryGeneration: (storyId, storyData) => apiClient.put(`/stories/${storyId}/generation`, { story_data: storyData }),
+  updateStoryElement: (storyId, elementType, storyData, updates, elementId = null) => {
+    const url = elementId ? 
+      `/stories/${storyId}/elements/${elementType}/${elementId}` :
+      `/stories/${storyId}/elements/${elementType}`;
+    return apiClient.put(url, { story_data: storyData, updates });
+  },
+  regenerateStoryElement: (storyId, elementType, storyData, elementId = null) => {
+    const url = elementId ?
+      `/stories/${storyId}/regenerate/${elementType}/${elementId}` :
+      `/stories/${storyId}/regenerate/${elementType}`;
+    return apiClient.post(url, { story_data: storyData });
+  },
+  
   // Video generation
   generateVideo: (storyId, formData) => apiClient.post(`/stories/${storyId}/generate`, formData, {
     headers: { 'Content-Type': 'multipart/form-data' }
@@ -97,6 +115,11 @@ apiClient.deleteEntityFromLibrary = endpoints.deleteEntityFromLibrary;
 apiClient.getStories = endpoints.getStories;
 apiClient.getStory = endpoints.getStory;
 apiClient.createStory = endpoints.createStory;
+apiClient.generateStoryFromPrompt = endpoints.generateStoryFromPrompt;
+apiClient.getStoryGeneration = endpoints.getStoryGeneration;
+apiClient.saveStoryGeneration = endpoints.saveStoryGeneration;
+apiClient.updateStoryElement = endpoints.updateStoryElement;
+apiClient.regenerateStoryElement = endpoints.regenerateStoryElement;
 apiClient.generateVideo = endpoints.generateVideo;
 apiClient.stitchStory = endpoints.stitchStory;
 apiClient.getGenerationStatus = endpoints.getGenerationStatus;

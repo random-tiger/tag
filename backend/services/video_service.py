@@ -30,7 +30,8 @@ class VideoService:
         os.makedirs(Config.TEMP_UPLOAD_FOLDER, exist_ok=True)
     
     def generate_video_segment(self, story_id: str, prompt: str, 
-                             image_file=None, use_previous_frame: bool = False) -> Dict[str, Any]:
+                             image_file=None, use_previous_frame: bool = False,
+                             target_sequence: int = None) -> Dict[str, Any]:
         """Generate a new video segment for a story"""
         try:
             segment_id = str(uuid.uuid4())
@@ -48,14 +49,19 @@ class VideoService:
                 Config.SEGMENTS_COLLECTION,
                 filters=[('story_id', '==', story_id)],
             )
-            sequence_number = len(previous_segments) + 1
+            # If a target sequence is provided (re-generate a specific scene), use it
+            if isinstance(target_sequence, int) and target_sequence > 0:
+                sequence_number = target_sequence
+            else:
+                sequence_number = len(previous_segments) + 1
             
             self.logger.info(f"🎬 SEGMENT GENERATION: Story {story_id}, Sequence #{sequence_number}")
             self.logger.info(f"🎬 SEGMENT GENERATION: use_previous_frame={use_previous_frame}")
             self.logger.info(f"🎬 SEGMENT GENERATION: Found {len(previous_segments)} existing segments")
             
             # Prepare generation parameters
-            enhanced_prompt = prompt
+            # Default to using the scene prompt verbatim to avoid losing semantic details
+            enhanced_prompt = (prompt or '').strip()
             starting_image = None
             cleanup_paths: List[str] = []
             
@@ -72,12 +78,9 @@ class VideoService:
                 # Create Image type for Veo
                 starting_image = types.Image.from_file(location=image_path)
                 
-                # Enhance prompt with image context
-                with open(image_path, 'rb') as f:
-                    image_data = f.read()
-                enhanced_prompt = self.cloud_service.generate_enhanced_prompt(
-                    prompt, image_data=image_data
-                )
+                # Include original scene text; avoid rewriting to preserve intent
+                # Add a light note for I2V continuity
+                enhanced_prompt = f"Use the provided reference image for visual continuity. Scene details: {prompt}".strip()
                 # Defer cleanup until after generation call
                 cleanup_paths.append(image_path)
                 
@@ -100,21 +103,21 @@ class VideoService:
                     # Always include prior prompt as textual context
                     continuity_context = f"This scene continues from the previous scene. Previous prompt: {previous_segment.get('original_prompt', '')}"
                     if starting_image:
-                        self.logger.info("🎬 CONTINUITY: ✅ Frame extraction successful - using image + contextualized prompt")
-                        enhanced_prompt = self.cloud_service.generate_enhanced_prompt(f"{continuity_context}. {prompt}")
+                        self.logger.info("🎬 CONTINUITY: ✅ Frame extraction successful - using image + original scene text")
+                        enhanced_prompt = f"{continuity_context}. Scene details: {prompt}".strip()
                     else:
-                        # Fallback to text-only with continuity context
+                        # Fallback to text-only with continuity context; keep original text intact
                         self.logger.info("🎬 CONTINUITY: ❌ Frame extraction failed - using text continuity context")
                         self.logger.info(f"🎬 CONTINUITY: Context being added: '{continuity_context}'")
-                        enhanced_prompt = self.cloud_service.generate_enhanced_prompt(f"{continuity_context}. {prompt}")
-                        self.logger.info(f"🎬 CONTINUITY: Final enhanced prompt: '{enhanced_prompt}'")
+                        enhanced_prompt = f"{continuity_context}. {prompt}".strip()
+                        self.logger.info(f"🎬 CONTINUITY: Final prompt: '{enhanced_prompt}'")
                 else:
                     self.logger.warning("🎬 CONTINUITY: No video URL found in previous segments - using text continuity context")
                     continuity_context = f"This scene continues from the previous scene. Previous prompt: {previous_segment.get('original_prompt', '')}"
                     enhanced_prompt = self.cloud_service.generate_enhanced_prompt(f"{continuity_context}. {prompt}")
             else:
-                # Text-only generation
-                enhanced_prompt = self.cloud_service.generate_enhanced_prompt(prompt)
+                # Text-only generation; pass through the scene prompt as-is to Veo
+                enhanced_prompt = (prompt or '').strip()
             
             # Always log the final enhanced/refined prompt that will be used
             try:

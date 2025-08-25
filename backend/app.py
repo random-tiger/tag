@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 
 from services.video_service import VideoService
 from services.story_service import StoryService
+from services.story_generation_service import StoryGenerationService
 from services.cloud_service import CloudService
 from config.settings import Config
 from utils.logger import setup_logging
@@ -32,10 +33,17 @@ def create_app():
     cloud_service = CloudService()
     video_service = VideoService(cloud_service)
     story_service = StoryService(cloud_service)
+    story_generation_service = StoryGenerationService(cloud_service)
     
     @app.route('/health', methods=['GET'])
     def health_check():
         """Health check endpoint"""
+        return jsonify({"status": "healthy", "service": "video-story-platform"})
+    
+    # Mirror health under /api for frontend baseURL convenience
+    @app.route('/api/health', methods=['GET'])
+    def api_health_check():
+        """Health check endpoint (API-prefixed)"""
         return jsonify({"status": "healthy", "service": "video-story-platform"})
     
     @app.route('/api/stories', methods=['POST'])
@@ -109,6 +117,120 @@ def create_app():
             app.logger.error(f"Error listing stories: {str(e)}")
             return jsonify({"error": "Failed to list stories"}), 500
     
+    @app.route('/api/stories/generate', methods=['POST'])
+    def generate_story_from_prompt():
+        """Generate a detailed story structure from a user prompt"""
+        try:
+            data = request.get_json()
+            prompt = data.get('prompt', '').strip()
+            user_preferences = data.get('preferences', {})
+            
+            if not prompt:
+                return jsonify({"error": "Prompt is required"}), 400
+            
+            app.logger.info(f"Generating story from prompt: {prompt[:100]}...")
+            
+            # Generate story structure using AI
+            story_data = story_generation_service.generate_story_from_prompt(prompt, user_preferences)
+            
+            return jsonify(story_data), 201
+            
+        except Exception as e:
+            app.logger.error(f"Error generating story from prompt: {str(e)}")
+            return jsonify({"error": "Failed to generate story"}), 500
+    
+    @app.route('/api/stories/<story_id>/elements/<element_type>', methods=['PUT'])
+    @app.route('/api/stories/<story_id>/elements/<element_type>/<element_id>', methods=['PUT'])
+    def update_story_element(story_id, element_type, element_id=None):
+        """Update a specific story element (scene, character, story metadata)"""
+        try:
+            # Get current story data from the request body
+            data = request.get_json()
+            story_data = data.get('story_data', {})
+            updates = data.get('updates', {})
+            
+            if not story_data:
+                return jsonify({"error": "Story data is required"}), 400
+                
+            # Update the story element
+            updated_story = story_generation_service.update_story_element(
+                story_data, element_type, element_id or 'story', updates
+            )
+
+            # Persist generation data onto the story if it exists
+            try:
+                # Best-effort: if story exists, attach generation_data
+                if cloud_service.get_document(Config.STORIES_COLLECTION, story_id):
+                    story_service.update_story(story_id, { 'generation_data': updated_story })
+            except Exception as persist_err:
+                app.logger.warning(f"Could not persist generation data for story {story_id}: {persist_err}")
+            
+            return jsonify(updated_story)
+            
+        except Exception as e:
+            app.logger.error(f"Error updating story element: {str(e)}")
+            return jsonify({"error": "Failed to update story element"}), 500
+    
+    @app.route('/api/stories/<story_id>/regenerate/<element_type>', methods=['POST'])
+    @app.route('/api/stories/<story_id>/regenerate/<element_type>/<element_id>', methods=['POST'])
+    def regenerate_story_element(story_id, element_type, element_id=None):
+        """Regenerate a specific story element or entire story"""
+        try:
+            data = request.get_json()
+            story_data = data.get('story_data', {})
+            
+            if not story_data:
+                return jsonify({"error": "Story data is required"}), 400
+            
+            # Regenerate the story element
+            updated_story = story_generation_service.regenerate_story_element(
+                story_data, element_type, element_id
+            )
+
+            # Persist generation data if a real story exists
+            try:
+                if cloud_service.get_document(Config.STORIES_COLLECTION, story_id):
+                    story_service.update_story(story_id, { 'generation_data': updated_story })
+            except Exception as persist_err:
+                app.logger.warning(f"Could not persist regenerated generation data for story {story_id}: {persist_err}")
+            
+            return jsonify(updated_story)
+            
+        except Exception as e:
+            app.logger.error(f"Error regenerating story element: {str(e)}")
+            return jsonify({"error": "Failed to regenerate story element"}), 500
+
+    @app.route('/api/stories/<story_id>/generation', methods=['GET'])
+    def get_story_generation(story_id):
+        """Get persisted generation/storyboard data for a story"""
+        try:
+            story = cloud_service.get_document(Config.STORIES_COLLECTION, story_id)
+            if not story:
+                return jsonify({"error": "Story not found"}), 404
+            return jsonify(story.get('generation_data') or {})
+        except Exception as e:
+            app.logger.error(f"Error fetching story generation data: {str(e)}")
+            return jsonify({"error": "Failed to fetch story generation data"}), 500
+
+    @app.route('/api/stories/<story_id>/generation', methods=['PUT'])
+    def save_story_generation(story_id):
+        """Persist generation/storyboard data for a story"""
+        try:
+            body = request.get_json() or {}
+            story_data = body.get('story_data') or body
+            if not isinstance(story_data, dict) or not story_data:
+                return jsonify({"error": "story_data is required"}), 400
+
+            story = cloud_service.get_document(Config.STORIES_COLLECTION, story_id)
+            if not story:
+                return jsonify({"error": "Story not found"}), 404
+
+            updated = story_service.update_story(story_id, { 'generation_data': story_data })
+            return jsonify(updated.get('generation_data') or story_data)
+        except Exception as e:
+            app.logger.error(f"Error saving story generation data: {str(e)}")
+            return jsonify({"error": "Failed to save story generation data"}), 500
+    
     @app.route('/api/stories/<story_id>/generate', methods=['POST'])
     def generate_video_segment(story_id):
         """Generate a new video segment for a story"""
@@ -118,21 +240,35 @@ def create_app():
                 data = request.get_json()
                 prompt = data.get('prompt', '')
                 use_previous_frame = data.get('use_previous_frame', False)
+                target_sequence = data.get('target_sequence')
                 image_file = None
             else:
                 # Handle form data from frontend
                 prompt = request.form.get('prompt', '')
                 use_previous_frame = request.form.get('use_previous_frame', 'false').lower() == 'true'
+                target_sequence = request.form.get('target_sequence')
                 image_file = request.files.get('image') if 'image' in request.files else None
             
             app.logger.info(f"Generating video for story {story_id} with prompt: {prompt}")
             
             # Generate video using the service
+            # Normalize target_sequence
+            try:
+                if isinstance(target_sequence, str) and target_sequence.strip():
+                    target_sequence = int(target_sequence)
+                elif isinstance(target_sequence, (int, float)):
+                    target_sequence = int(target_sequence)
+                else:
+                    target_sequence = None
+            except Exception:
+                target_sequence = None
+
             result = video_service.generate_video_segment(
                 story_id=story_id,
                 prompt=prompt,
                 image_file=image_file,
-                use_previous_frame=use_previous_frame
+                use_previous_frame=use_previous_frame,
+                target_sequence=target_sequence
             )
             
             return jsonify(result), 201

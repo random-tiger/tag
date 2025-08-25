@@ -28,6 +28,8 @@ class Config:
     VEO_MODEL_FAST = "veo-3.0-fast-generate-001"
     VEO_MODEL_IMAGE = "veo-3.0-generate-preview"
     GEMINI_MODEL = "gemini-2.5-flash"
+    # Gemini thinking configuration (0 disables thinking as per docs)
+    GEMINI_THINKING_BUDGET = int(os.environ.get('GEMINI_THINKING_BUDGET', '0'))
     
     # Video settings
     DEFAULT_VIDEO_DURATION = 8  # seconds

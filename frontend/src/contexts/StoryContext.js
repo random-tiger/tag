@@ -6,9 +6,11 @@ import toast from 'react-hot-toast';
 const initialState = {
   stories: [],
   currentStory: null,
+  currentStoryGeneration: null, // For the new story generation flow
   loading: false,
   error: null,
   generationStatus: {},
+  storyGenerationStep: 1, // Track current step in the 5-step flow
 };
 
 // Action types
@@ -21,6 +23,9 @@ const ActionTypes = {
   UPDATE_STORY: 'UPDATE_STORY',
   UPDATE_GENERATION_STATUS: 'UPDATE_GENERATION_STATUS',
   CLEAR_ERROR: 'CLEAR_ERROR',
+  SET_CURRENT_STORY_GENERATION: 'SET_CURRENT_STORY_GENERATION',
+  SET_STORY_GENERATION_STEP: 'SET_STORY_GENERATION_STEP',
+  UPDATE_STORY_GENERATION: 'UPDATE_STORY_GENERATION',
 };
 
 // Reducer
@@ -67,6 +72,26 @@ function storyReducer(state, action) {
           ...state.generationStatus,
           [action.payload.operationId]: action.payload.status
         }
+      };
+    
+    case ActionTypes.SET_CURRENT_STORY_GENERATION:
+      return {
+        ...state,
+        currentStoryGeneration: action.payload,
+        loading: false
+      };
+    
+    case ActionTypes.SET_STORY_GENERATION_STEP:
+      return {
+        ...state,
+        storyGenerationStep: action.payload
+      };
+    
+    case ActionTypes.UPDATE_STORY_GENERATION:
+      return {
+        ...state,
+        currentStoryGeneration: action.payload,
+        loading: false
       };
     
     default:
@@ -134,6 +159,10 @@ export function StoryProvider({ children }) {
       
       const response = await apiClient.get(`/stories/${storyId}`);
       dispatch({ type: ActionTypes.SET_CURRENT_STORY, payload: response.data });
+      // Hydrate generation data if present so edits/regens use same source
+      if (response.data && response.data.generation_data) {
+        dispatch({ type: ActionTypes.SET_CURRENT_STORY_GENERATION, payload: response.data.generation_data });
+      }
       // Auto-resume polling for any in-progress segments when loading a story
       resumePollingForStory(response.data);
       
@@ -146,14 +175,19 @@ export function StoryProvider({ children }) {
   };
 
   // Generate video segment
-  const generateVideoSegment = async (storyId, prompt, imageFile = null, usePreviousFrame = false) => {
+  const generateVideoSegment = async (storyId, prompt, imageFile = null, usePreviousFrame = false, options = {}) => {
     try {
-      dispatch({ type: ActionTypes.SET_LOADING, payload: true });
+      if (!options.silent) {
+        dispatch({ type: ActionTypes.SET_LOADING, payload: true });
+      }
       dispatch({ type: ActionTypes.CLEAR_ERROR });
       
       const formData = new FormData();
       formData.append('prompt', prompt);
       formData.append('use_previous_frame', usePreviousFrame.toString());
+      if (options.targetSequence != null) {
+        formData.append('target_sequence', String(options.targetSequence));
+      }
       
       if (imageFile) {
         formData.append('image', imageFile);
@@ -169,7 +203,9 @@ export function StoryProvider({ children }) {
       startStatusPolling(response.data.operation_id);
       
       toast.success('Video generation started!');
-      dispatch({ type: ActionTypes.SET_LOADING, payload: false });
+      if (!options.silent) {
+        dispatch({ type: ActionTypes.SET_LOADING, payload: false });
+      }
       
       return response.data;
       
@@ -227,7 +263,152 @@ export function StoryProvider({ children }) {
     }
   };
 
-  // AI prompt assistance removed
+  // Generate story from prompt (new flow step 1-2)
+  const generateStoryFromPrompt = async (prompt, preferences = {}) => {
+    try {
+      dispatch({ type: ActionTypes.SET_LOADING, payload: true });
+      dispatch({ type: ActionTypes.CLEAR_ERROR });
+      
+      const response = await apiClient.generateStoryFromPrompt(prompt, preferences);
+      dispatch({ type: ActionTypes.SET_CURRENT_STORY_GENERATION, payload: response.data });
+      dispatch({ type: ActionTypes.SET_STORY_GENERATION_STEP, payload: 3 }); // Go to review step
+      
+      toast.success('Story generated successfully!');
+      return response.data;
+      
+    } catch (error) {
+      handleApiError(error, 'Failed to generate story');
+      throw error;
+    }
+  };
+
+  // Update story element (prefer persisting to actual story if present)
+  const updateStoryElement = async (elementType, updates, elementId = null) => {
+    try {
+      dispatch({ type: ActionTypes.SET_LOADING, payload: true });
+      dispatch({ type: ActionTypes.CLEAR_ERROR });
+      
+      if (!state.currentStoryGeneration) {
+        throw new Error('No story data available');
+      }
+      
+      // Use real story id if we have one, so backend can persist generation_data
+      const storyIdForOps = state.currentStory?.id || state.currentStoryGeneration.id;
+      const response = await apiClient.updateStoryElement(
+        storyIdForOps,
+        elementType,
+        state.currentStoryGeneration,
+        updates,
+        elementId
+      );
+      
+      dispatch({ type: ActionTypes.UPDATE_STORY_GENERATION, payload: response.data });
+      toast.success('Story updated successfully!');
+      
+      return response.data;
+      
+    } catch (error) {
+      handleApiError(error, 'Failed to update story');
+      throw error;
+    }
+  };
+
+  // Regenerate story element (persist when possible)
+  const regenerateStoryElement = async (elementType, elementId = null) => {
+    try {
+      dispatch({ type: ActionTypes.SET_LOADING, payload: true });
+      dispatch({ type: ActionTypes.CLEAR_ERROR });
+      
+      if (!state.currentStoryGeneration) {
+        throw new Error('No story data available');
+      }
+      
+      const storyIdForOps = state.currentStory?.id || state.currentStoryGeneration.id;
+      const response = await apiClient.regenerateStoryElement(
+        storyIdForOps,
+        elementType,
+        state.currentStoryGeneration,
+        elementId
+      );
+      
+      dispatch({ type: ActionTypes.UPDATE_STORY_GENERATION, payload: response.data });
+      toast.success('Story regenerated successfully!');
+      
+      return response.data;
+      
+    } catch (error) {
+      handleApiError(error, 'Failed to regenerate story');
+      throw error;
+    }
+  };
+
+  // Set story generation step
+  const setStoryGenerationStep = (step) => {
+    dispatch({ type: ActionTypes.SET_STORY_GENERATION_STEP, payload: step });
+  };
+
+  // Create actual story from generated story data and persist generation
+  const createStoryFromGeneration = async (storyGeneration, userId = 'anonymous', options = {}) => {
+    try {
+      if (!options.silent) {
+        dispatch({ type: ActionTypes.SET_LOADING, payload: true });
+      }
+      dispatch({ type: ActionTypes.CLEAR_ERROR });
+      
+      // Ensure we have a non-empty, human-friendly title
+      const rawTitle = (storyGeneration?.title || '').trim();
+      const fallbackTitle = rawTitle
+        ? rawTitle
+        : (storyGeneration?.premise || storyGeneration?.prompt || 'Untitled Story').slice(0, 60);
+
+      // Create the story using existing API
+      const story = await createStory(fallbackTitle, storyGeneration.premise || '', userId);
+
+      // Persist generation data to the created story
+      try {
+        await apiClient.saveStoryGeneration(story.id, storyGeneration);
+        // Reload to pick up any server-side normalization
+        await loadStory(story.id);
+      } catch (persistErr) {
+        console.error('Failed to persist story generation data', persistErr);
+      }
+      
+      // Clear wizard state unless caller requests to preserve the flow
+      if (!options.preserveWizard) {
+        dispatch({ type: ActionTypes.SET_CURRENT_STORY_GENERATION, payload: null });
+        dispatch({ type: ActionTypes.SET_STORY_GENERATION_STEP, payload: 1 });
+      }
+      
+      if (!options.preserveWizard && !options.silent) {
+        toast.success('Story created successfully!');
+      }
+      return story;
+      
+    } catch (error) {
+      handleApiError(error, 'Failed to create story');
+      throw error;
+    }
+  };
+
+  // Ensure a story exists; create from current generation if needed, preserving wizard state
+  const ensureStoryExists = async (userId = 'anonymous') => {
+    // If we already have a current story in context, use it
+    if (state.currentStory?.id) return state.currentStory;
+
+    // Otherwise, create one from the current generation and immediately load it
+    if (state.currentStoryGeneration) {
+      const created = await createStoryFromGeneration(
+        state.currentStoryGeneration,
+        userId,
+        { preserveWizard: true, silent: true }
+      );
+      // Load it into context so subsequent operations (polling/UI) can see segments
+      const loaded = await loadStory(created.id);
+      return loaded || created;
+    }
+
+    throw new Error('No story or generated story data available to create from');
+  };
 
   // Start polling for generation status
   const startStatusPolling = (operationId) => {
@@ -298,6 +479,13 @@ export function StoryProvider({ children }) {
       stitchStory,
       deleteStory,
       deleteSegment,
+      ensureStoryExists,
+      // New story generation actions
+      generateStoryFromPrompt,
+      updateStoryElement,
+      regenerateStoryElement,
+      setStoryGenerationStep,
+      createStoryFromGeneration,
       clearError: () => dispatch({ type: ActionTypes.CLEAR_ERROR }),
     }
   };

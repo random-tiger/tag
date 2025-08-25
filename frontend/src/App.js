@@ -57,7 +57,7 @@ function App() {
               },
               success: {
                 iconTheme: {
-                  primary: '#FFFF13',
+                  primary: '#FF1493',
                   secondary: 'white',
                 },
               },

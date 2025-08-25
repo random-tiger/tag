@@ -90,11 +90,31 @@ class StoryService:
                 )
                 story['segment_count'] = len(segments)
                 story['last_segment_status'] = 'none'
+                story['preview_video_url'] = None
                 
                 if segments:
                     # Sort segments and get status of last one
                     segments.sort(key=lambda x: x.get('sequence_number', 0))
                     story['last_segment_status'] = segments[-1].get('status', 'unknown')
+
+                    # Prefer the most recent completed segment with a video_url for card preview
+                    try:
+                        completed = [s for s in segments if s.get('status') == 'completed' and (s.get('video_url') or s.get('video_urls'))]
+                        # Use last by sequence number
+                        if completed:
+                            latest = max(completed, key=lambda x: x.get('sequence_number', 0))
+                            url = latest.get('video_url')
+                            if not url:
+                                vids = latest.get('video_urls') or []
+                                url = vids[0] if vids else None
+                            # Convert gs:// to https for browser playback
+                            if url and url.startswith('gs://'):
+                                http_url = self.cloud_service.gcs_uri_to_http_url(url, make_public=True)
+                                url = http_url or url
+                            story['preview_video_url'] = url
+                    except Exception:
+                        # Non-fatal; preview is optional
+                        pass
             
             # Sort stories by updated_at (newest first)
             stories.sort(key=lambda x: x.get('updated_at', ''), reverse=True)

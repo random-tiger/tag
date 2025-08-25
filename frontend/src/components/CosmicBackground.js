@@ -41,7 +41,7 @@ const CosmicBackground = () => {
       <motion.div
         className="absolute bottom-40 left-1/3 w-16 h-16 rounded-full opacity-10"
         style={{
-          background: 'radial-gradient(circle, #FF1493 0%, #FFFF13 70%, transparent 100%)'
+          background: 'radial-gradient(circle, #FF1493 0%, #FF1493 70%, transparent 100%)'
         }}
         animate={{
           y: [0, -15, 0],

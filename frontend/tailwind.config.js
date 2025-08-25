@@ -8,11 +8,13 @@ module.exports = {
       colors: {
         // Cosmic color palette from instructions
         'cosmic-deep': '#0B0019',
+        'cosmic-dark': '#0B0019', // Alias for cosmic-deep
         'cosmic-purple': '#1A0033',
         'cosmic-primary': '#8A2BE2',
         'cosmic-magenta': '#FF1493',
         'cosmic-violet': '#9400D3',
-        'cosmic-accent': '#FFFF13',
+        'cosmic-accent': '#FF1493',
+        'cosmic-yellow': '#FF1493', // Alias now magenta to match accent
         'cosmic-secondary': '#9725C7',
         'cosmic-medium': '#5B25C7',
         'cosmic-bright': '#4B0082',
@@ -45,7 +47,7 @@ module.exports = {
         'float': 'float 6s ease-in-out infinite',
       },
       backgroundImage: {
-        'cosmic-gradient': 'linear-gradient(135deg, #4B0082 0%, #1A0033 100%)',
+        'cosmic-gradient': 'linear-gradient(135deg, #000000 0%, #4B0082 100%)',
         'hero-gradient': 'linear-gradient(135deg, #4B0082 0%, #FF1493 50%, #9400D3 100%)',
         'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)',
       },

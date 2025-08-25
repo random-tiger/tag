@@ -48,131 +48,138 @@ The app follows a **cosmic, premium dark theme** with vibrant gradients inspired
 
 ---
 
-### **Create Story Flow**
+### **Updated Create Story Flow**
 
-
-Of course. Here is that workflow converted into well-structured Markdown.
-
----
-
-### **Mobile-Optimized Story Creation Workflow**
-
-This document outlines the mobile-first user journey for creating compelling stories quickly and intuitively on phone-sized screens while preserving full storytelling power.
-
-**Mobile Design Principles:**
-- Single-focus screens with one primary action
-- Swipe-based navigation for natural mobile interactions  
-- Bottom sheets and modals for progressive disclosure
-- Chat-like conversational interfaces
-- Touch-optimized gestures and 44px minimum tap targets
+**Simple, Fast, Fun** - Built for short attention spans and instant gratification.
 
 ---
 
-#### **1. Story Prompting (Conversational Interface)**
-*   **UI:** Full-screen chat interface with AI avatar and cosmic background
-*   **Interaction:** 
-    *   Large text input with voice-to-text button
-    *   Suggested story starter pills: "Adventure", "Romance", "Mystery", "Comedy", "Sci-Fi"
-    *   Pull-up drawer with example prompts for inspiration
-*   **User Input:** Natural language story concept
-    *   *Example:* "I want to create an uplifting story about a boy and his dog."
-*   **Process:** Real-time processing with animated cosmic loading indicators
+#### **1. Prompt Your Story**
+*   **What it is:** One text box to describe your story idea
+*   **UI:** Full-screen hero with large multiline prompt box, placeholder examples, and a primary "Create Story" button
+*   **How it works:**
+    *   Type a single prompt and submit
+    *   AI infers length, genre, tone, characters, setting, and visual style from your prompt
+    *   The wizard pre-fills all subsequent steps with AI selections; you can accept or tweak them
+*   **Example prompt:** "A boy and his dog save the world in a modern city at golden hour. Cinematic, adventurous tone."
 
-#### **2. AI Story Generation (Progressive Loading)**
-*   **UI:** Animated cosmic loading screen with story elements materializing
-*   **Visual Feedback:** 
-    *   Character silhouettes fading in
-    *   Setting mood colors shifting across background
-    *   Scene count incrementing with progress bar
-    *   Estimated completion time display
+#### **2. Create Your Story Board** 
+*   **What it is:** AI generates your complete storyboards for each scene
+*   **UI:** Cool cosmic loading animation with story elements appearing
+*   **What you see:** Characters forming, scenes building, progress bar
 
-#### **3. Story Overview (Swipeable Card Stack)**
-*   **UI:** Full-screen swipeable cards replacing complex accordion interfaces
-*   **Card Sequence:**
-    1. **Synopsis Card:** Key story elements with cosmic visual backdrop
-    2. **Characters Card:** Swipe horizontally through character profiles with portraits
-    3. **World Card:** Immersive setting description with mood-appropriate visuals
-    4. **Scenes Card:** Vertically scrollable timeline with scene thumbnails
+#### **3. Review & Edit Your Story**
+*   **What it is:** See your complete story as storyboard cards and make quick edits
+*   **UI:** Grid of storyboard cards with a right-side summary panel
+*   **What you can do:**
+    *   Click any storyboard card to open its edit panel
+    *   Use "Edit All" to step through scenes sequentially
+    *   View/update story summary and main characters
+*   **Primary actions:**
+    *   **🔥 Love it** - Start making videos
+    *   **🔄 Try again** - Generate a new version
 
-*   **Quick Actions (Bottom Fixed Bar):**
-    *   ❤️ **Love it** - Proceed to storyboard (primary CTA)
-    *   ✏️ **Tweak it** - Quick edit mode
-    *   🔄 **Rethink** - New prompt with context retained
+#### **4. Guided Edits**
 
-#### **4. Quick Edit Mode (Bottom Sheet - Optional)**
-*Only appears if user selects "Tweak it"*
+*   **What it is:** Structured edit panels that open from storyboard cards or "Edit dAll"
+*   **How it works:** Use dedicated panels to update key elements
+    *   Story Overview → Edit title, premise, tone, length
+    *   Characters → Update appearance, traits, motivations; add/remove characters
+    *   Scenes → For each scene, adjust setting, camera/shot types, pacing, and dialog intensity with sliders, toggles, and dropdowns
+*   **Save flow:** Changes save instantly; use "Done" to return to step 3
 
-*   **UI:** Slide-up panel with three quick-edit tabs
-*   **Edit Options:**
-    *   **Characters Tab:** Tap character names/traits to edit inline
-    *   **Setting Tab:** Adjust mood/style with visual sliders and cosmic presets
-    *   **Scenes Tab:** Add/remove/reorder scenes with drag-and-drop gestures
-*   **Save Action:** Auto-saves changes, slides down to reveal updated story cards
-
-#### **5. Storyboard Preview (Horizontal Scene Scroll)**
-*   **UI:** Netflix-style horizontal scrolling scene tiles with cosmic frames
-*   **Scene Tiles:** 
-    *   Visual thumbnail with scene number
-    *   One-line scene description overlay
-    *   Character presence indicators (small avatar dots)
-    *   Scene duration badge (max 8 seconds)
-*   **Interactions:**
-    *   **Swipe horizontally** to browse through scenes
-    *   **Tap tile** for full-screen scene details modal
-    *   **Long-press tile** for quick edit context menu
-    *   **Pinch out** for overview of entire storyboard
-
-#### **6. Scene Detail Editor (Full-Screen Modal)**
-*   **UI:** Full-screen modal triggered by tapping any scene tile
-*   **Layout:**
-    *   Scene preview area with cosmic background matching story mood
-    *   Auto-expanding textarea for scene description
-    *   Character presence toggle chips (tap to add/remove characters)
-    *   Key actions list with + button for new actions
-    *   Smart suggestion pills based on story context
-*   **Navigation:** Swipe left/right to move between scene editors
-
-#### **7. Generation Choice (Action Sheet)**
-*   **UI:** Bottom slide-up action sheet with clear visual distinction
-*   **Options:**
-    *   **🎬 Quick Story** - Generate entire story at once
-        *   Subtitle: "Full story in 3-5 minutes"
-        *   Visual: Progress timeline graphic
-    *   **🎨 Scene by Scene** - Generate with scene-level control
-        *   Subtitle: "Review each scene as it's created" 
-        *   Visual: Step-by-step creation graphic
-*   **Background Processing:** Option to start generation and receive notification when complete
+#### **5. Start Making Videos**
+*   **What it is:** Choose how to create your video story
+*   **Two options:**
+    *   **🎬 Make Whole Story** - AI creates all videos at once (3-5 minutes)
+    *   **🎨 One Scene at a Time** - Review each scene and generate individually.
+*   **Background mode:** Start creation and get notified when done
 
 ---
 
-### **Mobile-Specific Enhancements**
+#### **Smart Features**
+*   **Auto-save:** Never lose your story progress
+*   **Background creation:** Start video generation and keep using the app
+*   **Push notifications:** Get alerted when your videos are ready
+*   **Share before creating:** Send story ideas to friends before making videos
 
-#### **Gesture Navigation**
-```javascript
-// Horizontal swipe between story overview cards
-// Horizontal swipe through scene tiles in storyboard
-// Vertical scroll for scene details and long content
-// Pinch gesture for storyboard overview
-// Long-press for context menus and quick actions
-// Pull-down to refresh/regenerate elements
+#### **Touch-Friendly Design**
+*   Large tap targets (minimum 44px)
+*   Simple vertical scrolling
+*   Thumb-friendly bottom buttons for main actions
+*   Satisfying cosmic animations and micro-interactions
+
+---
+
+### **Backend Content Generation Requirements**
+
+**Critical:** While the frontend is simple for users, the backend must generate extremely detailed content for high-quality video generation.
+
+#### **Story Structure Generation**
+*   **Character Details:** Full character profiles with physical descriptions, personality traits, motivations, speaking style, and mannerisms
+*   **Scene Breakdowns:** Detailed scene descriptions including:
+    *   Setting/location with specific environmental details
+    *   Camera angles and shot types (wide shot, close-up, tracking shot, etc.)
+    *   Lighting conditions and mood (golden hour, dramatic shadows, soft light, etc.)
+    *   Character positioning and movements
+    *   Props and background elements
+*   **Dialog:** Complete, natural-sounding dialog with:
+    *   Character-specific voice and tone and specific text.
+    *   Emotional context and delivery notes
+    *   Pacing and timing information
+
+#### **Video Generation Prompts**
+*   **Detailed Veo Prompts:** Each scene must include:
+    *   Comprehensive visual descriptions (clothing, facial expressions, body language)
+    *   Specific action descriptions with timing
+    *   Environmental storytelling elements
+    *   Continuity details (character appearance consistency, prop placement)
+    *   Technical video parameters (aspect ratio, duration, style)
+
+#### **User Abstraction**
+*   **Frontend Simplicity:** Users only see story summaries and simple scene descriptions
+*   **Backend Complexity:** Full technical details generated automatically for optimal video quality
+*   **Intelligent Defaults:** AI determines all technical parameters (shot types, lighting, pacing) based on story context and user preferences
+
+---
+
+### **Agent Flow Schema (Human Prompt → Output)**
+
+```mermaid
+flowchart TD
+  A[User: Prompt Your Story (Step 1)] --> B[Frontend: actions.generateStoryFromPrompt]
+  B --> C[POST /api/stories/generate]
+  C --> D[Flask: generate_story_from_prompt]
+  D --> E[StoryGenerationService.generate_story_from_prompt]
+  E --> F[Gemini: Story Structure\nmodels.generate_content\nresponse_mime_type=application/json\nThinkingConfig(budget)]
+  F --> G[Parse structured JSON\n(title, premise, arc, scenes meta)]
+  G --> H[Gemini: Detailed Scenes (per scene)\nJSON]
+  G --> I[Gemini: Character Profiles\nJSON]
+  H --> J[Assemble Story Data]
+  I --> J
+  J --> K[Return story JSON → Frontend]
+  K --> L[Create Your Story Board (Step 2) + Review & Edit (Step 3)]
+  L --> M[Guided Edits (Step 4) → regenerate/update]
+  M --> N{Start Making Videos (Step 5)}
+  N --> O[Whole Story Mode]
+  N --> P[One Scene at a Time]
+  O --> Q[Create Story + loop scenes\nPOST /api/stories/{id}/generate]
+  P --> Q
+  Q --> R[VideoService starts operation\nVeo config → GCS]
+  R --> S[Poll status\nGET /api/generation-status/{opId}]
+  S --> T[Segments complete in Firestore]
+  T --> U[POST /api/stories/{id}/stitch]
+  U --> V[Final video in GCS\nHTTP URL via CloudService]
+  V --> W[Frontend playback / share]
+
+  subgraph Observability & Storage
+    X[Structured logging]
+    Y[Firestore: stories, segments, operations]
+    Z[GCS: videos/, stories/]
+  end
+
+  D -. logs .-> X
+  E -. writes .-> Y
+  R -. writes .-> Z
+  T -. updates .-> Y
 ```
-
-#### **Progressive Disclosure**
-*   **Essential View:** Core story elements always visible
-*   **Detail View:** Advanced options in modals and bottom sheets  
-*   **Power User Features:** Accessible via long-press and settings
-
-#### **Smart Mobile Features**
-*   **Voice Input:** Available for all text fields with cosmic voice wave animation
-*   **Share Story Concepts:** Before generating videos, share story outlines
-*   **Auto-Save Drafts:** Never lose progress with background saving
-*   **Background Generation:** Start video creation and continue using app
-*   **Push Notifications:** Alert when generation is complete
-
-#### **Touch Optimization**
-*   All interactive elements minimum 44px touch targets
-*   Swipe areas with visual feedback and haptic responses
-*   Thumb-friendly bottom navigation and primary actions
-*   Cosmic-themed loading states with satisfying micro-interactions
-
-**Result:** Reduced from 8 complex steps to 5 streamlined interactions, cutting completion time from 3-5 minutes to 1-2 minutes while maintaining full creative control.

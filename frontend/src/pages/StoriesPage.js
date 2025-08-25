@@ -16,7 +16,16 @@ const StoriesPage = () => {
     actions.loadStories();
   }, []);
   
-  const filteredStories = stories
+  // Normalize to only valid story docs (ignore any stray segment-shaped items) and de-dupe by id
+  const storyMap = stories.reduce((acc, item) => {
+    // Heuristic: a real story has an 'id' and no 'story_id' field
+    if (item && item.id && !item.story_id) {
+      acc[item.id] = item; // last write wins, fine for updates
+    }
+    return acc;
+  }, {});
+
+  const filteredStories = Object.values(storyMap)
     .filter(story => {
       const matchesSearch = story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                           story.description.toLowerCase().includes(searchTerm.toLowerCase());
@@ -227,6 +236,16 @@ const StoriesPage = () => {
                                   <Play className="w-6 h-6 text-cosmic-accent ml-1" />
                                 </div>
                               </div>
+                            ) : story.preview_video_url ? (
+                              <video
+                                src={story.preview_video_url}
+                                muted
+                                loop
+                                playsInline
+                                className="w-full h-full object-cover"
+                                onMouseOver={(e) => e.currentTarget.play()}
+                                onMouseOut={(e) => e.currentTarget.pause()}
+                              />
                             ) : (
                               <div className="absolute inset-0 flex items-center justify-center">
                                 <div className="text-center">
